@@ -1,0 +1,16 @@
+{
+  "name": "サイボウズオフィスTOPのお知らせ閉じるくん",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "description": "This is an example to print Hello World in Chrome console",
+  "icons": {
+    "16": "icons/icon16.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["http://cybozu.zigexn.co.jp/*"],
+      "js": ["jquery.min.js", "topNotifyCloser.js"],
+      "css": ["topNotifyCloser.css"]
+    }
+  ]
+}

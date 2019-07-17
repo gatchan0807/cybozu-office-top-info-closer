@@ -1,0 +1,8 @@
+.cybozu-closer-toggle-button {
+  border: 1px solid #acacac;
+  background-color: #efefef;
+  font-weight: bold;
+  border-radius: 2px;
+  font-size: 13px;
+  cursor: pointer;
+}
